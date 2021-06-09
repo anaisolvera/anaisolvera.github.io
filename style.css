@@ -1,0 +1,68 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color : black;
+	background: white;
+	height: 30px;
+	width: 1400px;
+}
+
+body {
+	background : #cde7e0 ;
+}
+
+h1 {
+	color : #f08798 ;
+	font-family : pacifico ;
+	text-align : center ;
+	height: 60px;
+	width: 1400px;
+	margin: 50px 0px 10px 0px;
+}
+
+h2 {
+	color : black ;
+	font-family : pacifico ;
+	text-align : center ;
+	margin : 10px 0px 10px 0px;
+}
+
+.frame {
+	border : 3px;
+	background: #ffffff; ;
+	margin : 10px 0px 10px 0px ; 
+	padding : 0px ;
+}
+
+.fond {
+	background:#ffffff;
+	margin : 20px 0px 20px 0px;
+	height: 30px;
+	width: : 1400px;
+	display: : flex;
+	justify-content: center;
+	align-items: center;
+}
+
+p{
+	color : black ;
+	font-family : arial ;
+	text-align : left ;
+}
+
+h3 {
+	color : #f08798 ;
+	font-family : pacifico ;
+	text-align : left ;
+}
+
+.trait {
+	background: black;
+	margin : 20px 0px 20px 0px;
+	height: 5px;
+	width: : 1400px;
+	display: : flex;
+	justify-content: center;
+	align-items: center;
+}
