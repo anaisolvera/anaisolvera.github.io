@@ -1,60 +1,104 @@
-.navbar {
+.my-navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	color : black;
-	background: white;
+	color : white;
+	background: black;
+	font-family: 'Baloo Tammudu 2', cursive;
 	height: 30px;
 	width: 1400px;
 }
 
 body {
-	background : #cde7e0 ;
+	background : white ;
 }
 
 h1 {
 	color : #f08798 ;
-	font-family : pacifico ;
+	font-family: 'Dancing Script', cursive;
+	font-size : 80px;
 	text-align : center ;
-	height: 60px;
-	width: 1400px;
+	height: 100px;
 	margin: 50px 0px 10px 0px;
 }
 
-h2 {
-	color : black ;
-	font-family : pacifico ;
-	text-align : center ;
-	margin : 10px 0px 10px 0px;
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
 }
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.line-transparent {
+  background: white;
+  width: 100%;
+  color : black ;
+  font-family: 'Zilla Slab', serif;
+  font-size : 30px;
+  text-align : center ;
+  margin : 10px 0px 10px 0px;
+  align-items: center;
+}
+
+.line-light {
+  height: 30px;
+  width: 100%;
+  background: #f196b3;
+}
+
+.line-medium {
+  height: 30px;
+  width: 100%;
+  background: #f18ea5;
+}
+
+.line-hard {
+  height: 30px;
+  width: 100%;
+  background: #f08798;
+}
+
 
 .frame {
-	border : 3px;
-	background: #ffffff; ;
+	border : 3px solid black;
+	border-radius : 10px;
 	margin : 10px 0px 10px 0px ; 
 	padding : 0px ;
-}
-
-.fond {
-	background:#ffffff;
-	margin : 20px 0px 20px 0px;
-	height: 30px;
-	width: : 1400px;
-	display: : flex;
-	justify-content: center;
-	align-items: center;
-}
-
-p{
-	color : black ;
-	font-family : arial ;
-	text-align : left ;
+	box-shadow: 10px 10px 10px grey;
 }
 
 h3 {
 	color : #f08798 ;
-	font-family : pacifico ;
+	font-family: 'Zilla Slab', serif;
+	font-size : 30px;
 	text-align : left ;
+}
+
+p, ul{
+	color : black ;
+	font-family: 'Baloo Tammudu 2', cursive;
+	text-align : left ;
+}
+
+.P2 {
+	color : #f08798 ;
+	font-family: 'Baloo Tammudu 2', cursive;
+	text-align : left ;
+	align-items: center;
 }
 
 .trait {
@@ -65,4 +109,9 @@ h3 {
 	display: : flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.menu {
+	justify-content : center;
+	align-items : center;
 }
